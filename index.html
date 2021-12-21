@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ramanujan Magic Square</title>
+    <!-- <link rel="stylesheet" href="./css/jquery.mobile-1.4.5.min.css" />
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/jquery.mobile-1.4.5.min.js"></script> -->
+
+    <link rel="stylesheet" href="./css/index.css">
+    
+</head>
+
+<body>
+
+
+    <div id="pageDob" class="page">
+        <div>
+            <label id="lblEnterDob">Enter your date of birth</label>
+        </div>
+        <div>
+            <input id="txtDob" type="text" placeholder="DD/MM/YYYY" value="">
+        </div>
+        <div>
+            <button id="btnSubmitDob" onclick="showMagicSquare()">Submit</button>
+        </div>
+    </div>
+
+    <div id="pageMagicSquare" class="page">
+
+        <label id="lblRMS">Ramanujan's Magic Square</label>
+        
+        <div id="gridContainer">
+            <div id="lblDate"></div>
+            <div id="lblMonth"></div>
+            <div id="lblYear1"></div>
+            <div id="lblYear2"></div>
+
+            <div id="lbl20"></div>
+            <div id="lbl21"></div>
+            <div id="lbl22"></div>
+            <div id="lbl23"></div>
+
+            <div id="lbl30"></div>
+            <div id="lbl31"></div>
+            <div id="lbl32"></div>
+            <div id="lbl33"></div>
+
+            <div id="lbl40"></div>
+            <div id="lbl41"></div>
+            <div id="lbl42"></div>
+            <div id="lbl43"></div>
+            
+        </div>
+
+    </div>
+
+    <script src="./js/index.js"></script>
+
+</body>
+
+</html>

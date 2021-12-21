@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+}
+
+.page {
+    display: none;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+#pageDob {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 36px;
+    background-color: rgb(226, 112, 19);
+    color: white;
+}
+
+#lblEnterDob {
+    font-size: 4rem;
+}
+
+#txtDob {
+    font-size: 4rem;
+    color: rgb(226, 112, 19);
+    padding: 16px 64px;
+    border: 2px solid white;
+    outline: none;
+}
+
+#txtDob:focus {
+    color: white;
+    background-color: rgb(226, 112, 19);
+    outline: none;
+}
+#txtDob:focus::placeholder {
+    color: white;
+}
+
+#btnSubmitDob {
+    font-size: 4rem;
+    background: white;
+    border: none;
+    padding: 16px 64px;
+    border-radius: 16px;
+    color: #b33e00;
+    transition: all 0.3s;
+}
+
+#btnSubmitDob:hover {
+    color: white;
+    background-color: #b33e00;
+    cursor: pointer;
+}
+
+#btnSubmitDob:active {
+    color: #b33e00;
+    background: #ececec;
+}
+
+#pageMagicSquare{
+    background: rgb(226, 112, 19);;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:64px;
+}
+
+#gridContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    font-size: 4rem;
+}
+
+#lblRMS{
+    font-size: 7rem;
+    text-align: center;
+    color: white;
+}
+
+#gridContainer div {
+    text-align: center;
+    height: 7rem;
+    width: 7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid white;
+}
